@@ -1,0 +1,152 @@
+2021-06-07 22:26:26,531 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Mon Jun 07 22:26:26 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-06-07 22:26:27,151 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-06-07 22:26:27,193 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-06-07 22:26:27,350 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-38477-1623115587204-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-06-07 22:26:27,367 | INFO  | Listening for connections at: tcp://gustavo-Nitro-AN515-55:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-07 22:26:27,368 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-06-07 22:26:27,402 | INFO  | Listening for connections at: amqp://gustavo-Nitro-AN515-55:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-07 22:26:27,405 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-07 22:26:27,416 | INFO  | Listening for connections at: stomp://gustavo-Nitro-AN515-55:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-07 22:26:27,420 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-07 22:26:27,431 | INFO  | Listening for connections at: mqtt://gustavo-Nitro-AN515-55:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-07 22:26:27,434 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-06-07 22:26:27,446 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-07 22:26:27,500 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-07 22:26:27,619 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@2ca6546f{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-06-07 22:26:27,660 | INFO  | Listening for connections at ws://gustavo-Nitro-AN515-55:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-06-07 22:26:27,660 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-06-07 22:26:27,661 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-38477-1623115587204-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-06-07 22:26:27,662 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-06-07 22:26:27,663 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb only has 55824 mb of usable space. - resetting to maximum available disk space: 55824 mb | org.apache.activemq.broker.BrokerService | main
+2021-06-07 22:26:28,221 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-07 22:26:28,221 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-07 22:30:33,561 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp1997753864-39
+2021-06-07 22:54:14,564 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-38477-1623115587204-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-06-07 22:54:14,568 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-07 22:54:14,570 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-07 22:54:14,572 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-07 22:54:14,574 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-07 22:54:14,587 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-07 22:54:14,592 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-07 22:54:14,597 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2021-06-07 22:54:14,598 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-06-07 22:54:14,599 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-06-07 22:54:14,600 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-06-07 22:54:14,622 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-38477-1623115587204-0:1) uptime 27 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-06-07 22:54:14,623 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-38477-1623115587204-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-06-07 22:54:14,623 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Mon Jun 07 22:26:26 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2021-06-07 22:54:16,777 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Mon Jun 07 22:54:16 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-06-07 22:54:17,459 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-06-07 22:54:17,498 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-06-07 22:54:17,521 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-06-07 22:54:17,675 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-44911-1623117257531-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-06-07 22:54:17,723 | INFO  | Listening for connections at: tcp://gustavo-Nitro-AN515-55:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-07 22:54:17,724 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-06-07 22:54:17,754 | INFO  | Listening for connections at: amqp://gustavo-Nitro-AN515-55:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-07 22:54:17,755 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-07 22:54:17,758 | INFO  | Listening for connections at: stomp://gustavo-Nitro-AN515-55:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-07 22:54:17,759 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-07 22:54:17,762 | INFO  | Listening for connections at: mqtt://gustavo-Nitro-AN515-55:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-07 22:54:17,763 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-06-07 22:54:17,768 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-07 22:54:17,827 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-07 22:54:17,930 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@6be25526{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-06-07 22:54:17,966 | INFO  | Listening for connections at ws://gustavo-Nitro-AN515-55:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-06-07 22:54:17,967 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-06-07 22:54:17,968 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-44911-1623117257531-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-06-07 22:54:17,969 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-06-07 22:54:17,970 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb only has 55822 mb of usable space. - resetting to maximum available disk space: 55822 mb | org.apache.activemq.broker.BrokerService | main
+2021-06-07 22:54:18,479 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-07 22:54:18,480 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-07 23:00:08,646 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp926905424-50
+2021-06-07 23:04:23,255 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-44911-1623117257531-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-06-07 23:04:23,259 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-07 23:04:23,260 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-07 23:04:23,262 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-07 23:04:23,262 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-07 23:04:23,266 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-07 23:04:23,268 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-07 23:04:23,270 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2021-06-07 23:04:23,270 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-06-07 23:04:23,270 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-06-07 23:04:23,271 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-06-07 23:04:23,279 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-44911-1623117257531-0:1) uptime 10 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-06-07 23:04:23,280 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-44911-1623117257531-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-06-07 23:04:23,280 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Mon Jun 07 22:54:16 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2021-06-09 10:22:40,003 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Wed Jun 09 10:22:39 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-06-09 10:22:40,839 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-06-09 10:22:40,870 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-06-09 10:22:40,901 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-06-09 10:22:41,029 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-46739-1623244960914-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-06-09 10:22:41,080 | INFO  | Listening for connections at: tcp://gustavo-Nitro-AN515-55:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 10:22:41,081 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 10:22:41,103 | INFO  | Listening for connections at: amqp://gustavo-Nitro-AN515-55:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 10:22:41,104 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 10:22:41,107 | INFO  | Listening for connections at: stomp://gustavo-Nitro-AN515-55:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 10:22:41,108 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 10:22:41,112 | INFO  | Listening for connections at: mqtt://gustavo-Nitro-AN515-55:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 10:22:41,112 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 10:22:41,121 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-09 10:22:41,204 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-09 10:22:41,332 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@6be25526{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-06-09 10:22:41,382 | INFO  | Listening for connections at ws://gustavo-Nitro-AN515-55:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-06-09 10:22:41,383 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 10:22:41,384 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-46739-1623244960914-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-06-09 10:22:41,384 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-06-09 10:22:41,385 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb only has 55258 mb of usable space. - resetting to maximum available disk space: 55258 mb | org.apache.activemq.broker.BrokerService | main
+2021-06-09 10:22:41,996 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-09 10:22:41,997 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-09 10:53:44,841 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp926905424-36
+2021-06-09 11:08:18,448 | INFO  | Removing message pedidos.req(ID:gustavo-Nitro-AN515-55-46739-1623244960914-4:1:1:1:1) | org.apache.activemq.web.controller.DeleteMessage | qtp926905424-41
+2021-06-09 12:12:43,658 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | Session-HouseKeeper-64d4f7c7-1
+2021-06-09 15:17:37,550 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-46739-1623244960914-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-22
+2021-06-09 15:17:37,555 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-22
+2021-06-09 15:17:37,559 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-22
+2021-06-09 15:17:37,562 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-22
+2021-06-09 15:17:37,565 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-22
+2021-06-09 15:17:37,577 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-22
+2021-06-09 15:17:37,582 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-22
+2021-06-09 15:17:37,583 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-22
+2021-06-09 15:17:37,583 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-22
+2021-06-09 15:17:37,584 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-22
+2021-06-09 15:17:37,605 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-46739-1623244960914-0:1) uptime 4 hours 54 minutes | org.apache.activemq.broker.BrokerService | Thread-22
+2021-06-09 15:17:37,606 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-46739-1623244960914-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-22
+2021-06-09 15:17:37,607 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Wed Jun 09 10:22:39 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-22
+2021-06-09 17:03:50,381 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Wed Jun 09 17:03:50 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-06-09 17:03:51,456 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-06-09 17:03:51,514 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-06-09 17:03:51,564 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-06-09 17:03:51,741 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-42321-1623269031580-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-06-09 17:03:51,823 | INFO  | Listening for connections at: tcp://gustavo-Nitro-AN515-55:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 17:03:51,824 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 17:03:51,860 | INFO  | Listening for connections at: amqp://gustavo-Nitro-AN515-55:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 17:03:51,861 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 17:03:51,867 | INFO  | Listening for connections at: stomp://gustavo-Nitro-AN515-55:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 17:03:51,869 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 17:03:51,874 | INFO  | Listening for connections at: mqtt://gustavo-Nitro-AN515-55:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 17:03:51,876 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 17:03:51,883 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-09 17:03:51,988 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-09 17:03:52,146 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@cb0f763{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-06-09 17:03:52,205 | INFO  | Listening for connections at ws://gustavo-Nitro-AN515-55:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-06-09 17:03:52,208 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 17:03:52,208 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-42321-1623269031580-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-06-09 17:03:52,209 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-06-09 17:03:52,211 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb only has 54804 mb of usable space. - resetting to maximum available disk space: 54804 mb | org.apache.activemq.broker.BrokerService | main
+2021-06-09 17:03:53,173 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-09 17:03:53,174 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-09 17:13:18,152 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-42321-1623269031580-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-24
+2021-06-09 17:13:18,158 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-06-09 17:13:18,158 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2021-06-09 17:13:18,159 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-06-09 17:13:18,160 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2021-06-09 17:13:18,161 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2021-06-09 17:13:18,162 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2021-06-09 17:13:18,168 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2021-06-09 17:13:18,172 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-24
+2021-06-09 17:13:18,173 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2021-06-09 17:13:18,173 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2021-06-09 17:13:18,174 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2021-06-09 17:13:18,181 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-42321-1623269031580-0:1) uptime 9 minutes | org.apache.activemq.broker.BrokerService | Thread-24
+2021-06-09 17:13:18,182 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-42321-1623269031580-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-24
+2021-06-09 17:13:18,182 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Wed Jun 09 17:03:50 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-24

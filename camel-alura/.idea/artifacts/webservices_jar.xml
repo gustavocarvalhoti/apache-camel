@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="webservices:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/webservices_jar</output-path>
+    <root id="archive" name="webservices.jar">
+      <element id="module-output" name="webservices" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/glassfish/metro/webservices-api/2.3.1/webservices-api-2.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/glassfish/metro/webservices-rt/2.3.1/webservices-rt-2.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
