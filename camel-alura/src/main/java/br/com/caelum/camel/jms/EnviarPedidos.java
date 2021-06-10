@@ -8,8 +8,8 @@ import org.apache.camel.impl.DefaultCamelContext;
 public class EnviarPedidos {
 
     /**
-     * Vai na pasta /home/gustavo/dev-tools/projects/apache-camel/camel-alura/pedidos
-     * e envia para a fila JMS
+     * Lê o XML da pasta /apache-camel/camel-alura/pedidos e
+     * envia para a fila JMS - activemq:queue:pedidos
      * @param args
      * @throws Exception
      */
@@ -29,7 +29,7 @@ public class EnviarPedidos {
         });
 
         context.start();
-        Thread.sleep(10000);
+        Thread.sleep(5000);
         context.stop();
     }
 }

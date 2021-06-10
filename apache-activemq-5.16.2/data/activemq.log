@@ -150,3 +150,334 @@
 2021-06-09 17:13:18,181 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-42321-1623269031580-0:1) uptime 9 minutes | org.apache.activemq.broker.BrokerService | Thread-24
 2021-06-09 17:13:18,182 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-42321-1623269031580-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-24
 2021-06-09 17:13:18,182 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Wed Jun 09 17:03:50 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-24
+2021-06-09 17:48:14,487 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Wed Jun 09 17:48:14 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-06-09 17:48:16,510 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-06-09 17:48:16,565 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-06-09 17:48:16,608 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-06-09 17:48:16,743 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-40051-1623271696624-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-06-09 17:48:16,798 | INFO  | Listening for connections at: tcp://gustavo-Nitro-AN515-55:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 17:48:16,799 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 17:48:16,802 | INFO  | Listening for connections at: amqp://gustavo-Nitro-AN515-55:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 17:48:16,803 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 17:48:16,807 | INFO  | Listening for connections at: stomp://gustavo-Nitro-AN515-55:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 17:48:16,808 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 17:48:16,814 | INFO  | Listening for connections at: mqtt://gustavo-Nitro-AN515-55:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 17:48:16,815 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 17:48:16,821 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-09 17:48:16,887 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-09 17:48:16,989 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@213860b8{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-06-09 17:48:17,028 | INFO  | Listening for connections at ws://gustavo-Nitro-AN515-55:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-06-09 17:48:17,030 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 17:48:17,030 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-40051-1623271696624-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-06-09 17:48:17,031 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-06-09 17:48:17,032 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb only has 54549 mb of usable space. - resetting to maximum available disk space: 54549 mb | org.apache.activemq.broker.BrokerService | main
+2021-06-09 17:48:17,970 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-09 17:48:17,971 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-09 17:53:59,618 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp373342545-44
+2021-06-09 17:59:38,314 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-40051-1623271696624-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-24
+2021-06-09 17:59:38,315 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2021-06-09 17:59:38,316 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2021-06-09 17:59:38,317 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2021-06-09 17:59:38,317 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2021-06-09 17:59:38,322 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2021-06-09 17:59:38,323 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2021-06-09 17:59:38,326 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-24
+2021-06-09 17:59:38,327 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2021-06-09 17:59:38,327 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2021-06-09 17:59:38,327 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2021-06-09 17:59:38,335 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-40051-1623271696624-0:1) uptime 11 minutes | org.apache.activemq.broker.BrokerService | Thread-24
+2021-06-09 17:59:38,335 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-40051-1623271696624-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-24
+2021-06-09 17:59:38,336 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Wed Jun 09 17:48:14 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-24
+2021-06-09 17:59:46,801 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Wed Jun 09 17:59:46 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-06-09 17:59:47,517 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-06-09 17:59:47,553 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-06-09 17:59:47,592 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-06-09 17:59:47,742 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-46803-1623272387600-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-06-09 17:59:47,794 | INFO  | Listening for connections at: tcp://gustavo-Nitro-AN515-55:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 17:59:47,795 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 17:59:47,820 | INFO  | Listening for connections at: amqp://gustavo-Nitro-AN515-55:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 17:59:47,821 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 17:59:47,824 | INFO  | Listening for connections at: stomp://gustavo-Nitro-AN515-55:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 17:59:47,826 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 17:59:47,830 | INFO  | Listening for connections at: mqtt://gustavo-Nitro-AN515-55:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 17:59:47,831 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 17:59:47,837 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-09 17:59:47,901 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-09 17:59:48,007 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@213860b8{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-06-09 17:59:48,048 | INFO  | Listening for connections at ws://gustavo-Nitro-AN515-55:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-06-09 17:59:48,049 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 17:59:48,050 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-46803-1623272387600-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-06-09 17:59:48,050 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-06-09 17:59:48,051 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb only has 54537 mb of usable space. - resetting to maximum available disk space: 54537 mb | org.apache.activemq.broker.BrokerService | main
+2021-06-09 17:59:48,585 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-09 17:59:48,586 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-09 18:04:32,908 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-46803-1623272387600-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-24
+2021-06-09 18:04:32,910 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2021-06-09 18:04:32,913 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2021-06-09 18:04:32,914 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2021-06-09 18:04:32,915 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2021-06-09 18:04:32,919 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2021-06-09 18:04:32,922 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-24
+2021-06-09 18:04:32,923 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2021-06-09 18:04:32,923 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2021-06-09 18:04:32,923 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2021-06-09 18:04:32,932 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-46803-1623272387600-0:1) uptime 4 minutes | org.apache.activemq.broker.BrokerService | Thread-24
+2021-06-09 18:04:32,932 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-46803-1623272387600-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-24
+2021-06-09 18:04:32,933 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Wed Jun 09 17:59:46 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-24
+2021-06-09 18:05:33,019 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Wed Jun 09 18:05:33 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-06-09 18:05:33,711 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-06-09 18:05:33,740 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-06-09 18:05:33,782 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-06-09 18:05:33,903 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-43793-1623272733791-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-06-09 18:05:33,955 | INFO  | Listening for connections at: tcp://gustavo-Nitro-AN515-55:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 18:05:33,956 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 18:05:33,997 | INFO  | Listening for connections at: amqp://gustavo-Nitro-AN515-55:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 18:05:33,999 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 18:05:34,004 | INFO  | Listening for connections at: stomp://gustavo-Nitro-AN515-55:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 18:05:34,005 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 18:05:34,008 | INFO  | Listening for connections at: mqtt://gustavo-Nitro-AN515-55:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 18:05:34,009 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 18:05:34,015 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-09 18:05:34,089 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-09 18:05:34,201 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@213860b8{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-06-09 18:05:34,247 | INFO  | Listening for connections at ws://gustavo-Nitro-AN515-55:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-06-09 18:05:34,248 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 18:05:34,248 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-43793-1623272733791-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-06-09 18:05:34,249 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-06-09 18:05:34,249 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb only has 54530 mb of usable space. - resetting to maximum available disk space: 54530 mb | org.apache.activemq.broker.BrokerService | main
+2021-06-09 18:05:34,758 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-09 18:05:34,758 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-09 21:06:19,733 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-43793-1623272733791-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-06-09 21:06:19,738 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-06-09 21:06:19,738 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-09 21:06:19,739 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-06-09 21:06:19,741 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-09 21:06:19,744 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-09 21:06:19,746 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-09 21:06:19,759 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-09 21:06:19,767 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2021-06-09 21:06:19,767 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-06-09 21:06:19,768 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-06-09 21:06:19,768 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-06-09 21:06:19,778 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-43793-1623272733791-0:1) uptime 3 hours | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-06-09 21:06:19,779 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-43793-1623272733791-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-06-09 21:06:19,780 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Wed Jun 09 18:05:33 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2021-06-09 21:06:28,056 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Wed Jun 09 21:06:28 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-06-09 21:06:28,727 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-06-09 21:06:28,765 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-06-09 21:06:28,800 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-06-09 21:06:28,955 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-36945-1623283588810-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-06-09 21:06:29,009 | INFO  | Listening for connections at: tcp://gustavo-Nitro-AN515-55:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 21:06:29,011 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 21:06:29,040 | INFO  | Listening for connections at: amqp://gustavo-Nitro-AN515-55:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 21:06:29,041 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 21:06:29,044 | INFO  | Listening for connections at: stomp://gustavo-Nitro-AN515-55:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 21:06:29,045 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 21:06:29,048 | INFO  | Listening for connections at: mqtt://gustavo-Nitro-AN515-55:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 21:06:29,049 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 21:06:29,053 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-09 21:06:29,115 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-09 21:06:29,215 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@213860b8{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-06-09 21:06:29,257 | INFO  | Listening for connections at ws://gustavo-Nitro-AN515-55:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-06-09 21:06:29,259 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 21:06:29,260 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-36945-1623283588810-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-06-09 21:06:29,260 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-06-09 21:06:29,261 | WARN  | Store limit is 102400 mb (current store usage is 1 mb). The data directory: /home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb only has 54535 mb of usable space. - resetting to maximum available disk space: 54535 mb | org.apache.activemq.broker.BrokerService | main
+2021-06-09 21:06:29,809 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-09 21:06:29,810 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-09 21:17:26,490 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-36945-1623283588810-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-06-09 21:17:26,495 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-09 21:17:26,496 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-09 21:17:26,496 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-09 21:17:26,497 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-09 21:17:26,501 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-09 21:17:26,504 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2021-06-09 21:17:26,505 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-06-09 21:17:26,505 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-06-09 21:17:26,506 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-06-09 21:17:26,514 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-36945-1623283588810-0:1) uptime 10 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-06-09 21:17:26,515 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-36945-1623283588810-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-06-09 21:17:26,516 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Wed Jun 09 21:06:28 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2021-06-09 21:17:43,626 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Wed Jun 09 21:17:43 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-06-09 21:17:44,413 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-06-09 21:17:44,487 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-06-09 21:17:44,529 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-06-09 21:17:44,683 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-41711-1623284264537-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-06-09 21:17:44,736 | INFO  | Listening for connections at: tcp://gustavo-Nitro-AN515-55:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 21:17:44,737 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 21:17:44,768 | INFO  | Listening for connections at: amqp://gustavo-Nitro-AN515-55:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 21:17:44,769 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 21:17:44,775 | INFO  | Listening for connections at: stomp://gustavo-Nitro-AN515-55:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 21:17:44,777 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 21:17:44,782 | INFO  | Listening for connections at: mqtt://gustavo-Nitro-AN515-55:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-06-09 21:17:44,783 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 21:17:44,791 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-09 21:17:44,863 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-06-09 21:17:44,981 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@213860b8{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-06-09 21:17:45,024 | INFO  | Listening for connections at ws://gustavo-Nitro-AN515-55:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-06-09 21:17:45,026 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-06-09 21:17:45,026 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-41711-1623284264537-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-06-09 21:17:45,027 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-06-09 21:17:45,028 | WARN  | Store limit is 102400 mb (current store usage is 1 mb). The data directory: /home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/kahadb only has 54534 mb of usable space. - resetting to maximum available disk space: 54534 mb | org.apache.activemq.broker.BrokerService | main
+2021-06-09 21:17:45,585 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-09 21:17:45,586 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-06-09 21:17:56,667 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp373342545-42
+2021-06-09 21:18:02,914 | WARN  | /admin/purgeDestination.action | org.eclipse.jetty.server.HttpChannel | qtp373342545-43
+javax.servlet.ServletException: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:388)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:633)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:380)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:279)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:383)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:882)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1036)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:567)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	... 17 more
+Caused by: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1452)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:791)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:228)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:567)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1435)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1350)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	... 19 more
+Caused by: java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.apache.activemq.web.handler.BindingBeanNameUrlHandlerMapping.getHandlerInternal(BindingBeanNameUrlHandlerMapping.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:353)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1160)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:940)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 54 more
+2021-06-09 21:18:13,578 | WARN  | /admin/deleteDestination.action | org.eclipse.jetty.server.HttpChannel | qtp373342545-38
+javax.servlet.ServletException: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:388)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:633)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:380)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:279)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:135)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:882)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1036)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:567)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	... 16 more
+Caused by: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1452)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:791)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:228)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:567)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1435)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1350)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	... 18 more
+Caused by: java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.apache.activemq.web.handler.BindingBeanNameUrlHandlerMapping.getHandlerInternal(BindingBeanNameUrlHandlerMapping.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:353)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1160)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:940)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 53 more
+2021-06-09 21:37:06,537 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-41711-1623284264537-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-06-09 21:37:06,541 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-09 21:37:06,543 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-09 21:37:06,543 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-06-09 21:37:06,545 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-09 21:37:06,546 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-06-09 21:37:06,548 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: mqtt://0.0.0.0:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-06-09 21:37:06,548 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-09 21:37:06,551 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: mqtt://0.0.0.0:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-06-09 21:37:06,563 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-09 21:37:06,568 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-06-09 21:37:06,574 | INFO  | PListStore:[/home/gustavo/dev-tools/projects/apache-camel/apache-activemq-5.16.2/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2021-06-09 21:37:06,575 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-06-09 21:37:06,576 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-06-09 21:37:06,577 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-06-09 21:37:06,607 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-41711-1623284264537-0:1) uptime 19 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-06-09 21:37:06,608 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:gustavo-Nitro-AN515-55-41711-1623284264537-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-06-09 21:37:06,609 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@13eb8acf: startup date [Wed Jun 09 21:17:43 BRT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook

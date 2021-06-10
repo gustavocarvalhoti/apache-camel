@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/camel-spring-boot-projeto" />
+    <file type="web" url="file://$PROJECT_DIR$/webservices" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/camel-alura/pom.xml" />
+        <option value="$PROJECT_DIR$/camel-spring-boot-projeto/pom.xml" />
+        <option value="$PROJECT_DIR$/webservices/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

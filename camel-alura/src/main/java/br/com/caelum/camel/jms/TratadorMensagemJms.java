@@ -12,7 +12,7 @@ public class TratadorMensagemJms {
 
     public static void main(String[] args) throws Exception {
         CamelContext context = new DefaultCamelContext();
-        context.addComponent("activemq", ActiveMQComponent.activeMQComponent("tcp://localhost:61616"));
+        context.addComponent("activemq", ActiveMQComponent.activeMQComponent("tcp://127.0.0.1:61616"));
 
         context.addRoutes(new RouteBuilder() {
 

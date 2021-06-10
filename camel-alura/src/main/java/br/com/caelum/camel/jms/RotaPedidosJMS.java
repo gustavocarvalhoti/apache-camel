@@ -8,20 +8,20 @@ import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.http4.HttpMethods;
 import org.apache.camel.impl.DefaultCamelContext;
 
-public class RotaPedidos {
+public class RotaPedidosJMS {
 
     public static void main(String[] args) throws Exception {
 
         CamelContext context = new DefaultCamelContext();
         // 61616 - Porta default
-        context.addComponent("activemq", ActiveMQComponent.activeMQComponent("tcp://localhost:61616"));
+        context.addComponent("activemq", ActiveMQComponent.activeMQComponent("tcp://127.0.0.1:61616"));
 
         context.addRoutes(new RouteBuilder() {
             // Vai na pasta pedidos a cada 5 segundos e verifica os dados
             @Override
             public void configure() throws Exception {
 
-                // Escreve nessa fila de erros
+                // Escreve ns fila pedidos.DLQ caso de erro
                 errorHandler(
                         deadLetterChannel("activemq:queue:pedidos.DLQ")
                                 .logExhaustedMessageHistory(true) // Loga o erro
@@ -37,9 +37,8 @@ public class RotaPedidos {
                                 .redeliveryDelay(2000) // intervalo
                 );
 
-                // queue:pedidos - fila que configurei no site
+                // Lê da fila activemq:queue:pedidos e envia os pedidos
                 // http://127.0.0.1:8161/admin/queues.jsp
-                // Lê dessa fila
                 from("activemq:queue:pedidos")
                         .routeId("rota-pedidos")
                         .to("validator:pedido.xsd") // Está em resources, ele valida a estrutura
@@ -47,19 +46,18 @@ public class RotaPedidos {
                         .to("direct:http")
                         .to("direct:soap");
 
-                // Faz o post para a URL HTTP
+                // Ele leu acima os pedidos e agora está despachando
+                // Faz o get na URL http4://localhost:8080/webservices/ebook/item passando os parametros
                 from("direct:http").routeId("rota-http")
-                        //.log("${body}")
+                        .log("Request HTTP *************************************")
                         .setProperty("pedidoId", xpath("/pedido/id/text()")) // Cria uma propriedade
                         .setProperty("clienteId", xpath("/pedido/pagamento/email-titular/text()"))
-                        .split()
-                        .xpath("/pedido/itens/item") // Separa a lista de itens do pedido, divide a mensagem
-                        .filter()
-                        .xpath("/item/formato[text()='EBOOK']") // Pega somente o EBOOK
+                        .split().xpath("/pedido/itens/item") // Separa a lista de itens do pedido, divide a mensagem
+                        .filter().xpath("/item/formato[text()='EBOOK']") // Pega somente o EBOOK
                         .setProperty("ebookId", xpath("/item/livro/codigo/text()"))
-                        //.log("HTTP: ${id}")
+                        .log("HTTP: ${id}")
+                        .log("BODY: \n${body}")
                         .marshal().xmljson() // Convert to XML
-                        //.log("${body}")
                         .setHeader(Exchange.HTTP_METHOD, HttpMethods.GET)
                         .setHeader(Exchange.HTTP_QUERY,
                                 simple("ebookId=${property.ebookId}&pedidoId=${property.pedidoId}&clienteId=${property.clienteId}&")
@@ -68,9 +66,10 @@ public class RotaPedidos {
 
                 // Faz o post para a URL SOAP
                 from("direct:soap").routeId("rota-soap")
+                        .log("Request SOAP *************************************")
                         .to("xslt:pedido-para-soap.xslt") // Template em resources
                         .log("SOAP: ${id}")
-                        .log("BODY: ${body}")
+                        .log("BODY: \n${body}")
                         .setHeader(Exchange.CONTENT_TYPE, constant("text/xml"))
                         .to("http4://localhost:8080/webservices/financeiro");
             }
@@ -79,53 +78,4 @@ public class RotaPedidos {
         Thread.sleep(20000);
         context.stop();
     }
-
-    /*
-    Pedido pedido = new Pedido();
-
-    //para gravar o XML no arquivo
-    JAXB.marshal(pedido, new FileOutputStream("pedido.xml"));
-
-    //para criar o objeto a partir de XML
-    Pedido pedidoDoXml = JAXB.unmarshal(new FileInputStream("pedido.xml"), Pedido.class);
-
-    //para processar em paralelo
-    from("file:pedidos?delay=5s&noop=true").
-    multicast().
-        parallelProcessing().
-            timeout(500). //millis
-                to("direct:soap").
-                to("direct:http");
-
-    // SEDA
-    A ideia do SEDA é que cada rota (e sub-rota) possua uma fila dedicada de entrada
-    e as rotas enviam mensagens para essas filas para se comunicar.
-    Dentro dessa arquitetura, as mensagens são chamadas de eventos.
-    A rota fica então consumindo as mensagens/eventos da fila, tudo funcionando em paralelo.
-
-    Para usar SEDA basta substituir a palavra direct por seda, com isso, o multicast se tornará desnecessário:
-
-    from("file:pedidos?delay=5s&noop=true").
-    routeId("rota-pedidos").
-    to("seda:soap").
-    to("seda:http");
-
-    from("seda:soap").
-    routeId("rota-soap").
-    log("chamando servico soap ${body}").
-    to("mock:soap");
-
-    from("seda:http").
-    routeId("rota-http").
-    setProperty("pedidoId", xpath("/pedido/id/text()")).
-    setProperty("email", xpath("/pedido/pagamento/email-titular/text()")).
-    split().
-    xpath("/pedido/itens/item").
-    filter().
-    xpath("/item/formato[text()='EBOOK']").
-    setProperty("ebookId", xpath("/item/livro/codigo/text()")).
-    setHeader(Exchange.HTTP_QUERY,
-    simple("clienteId=${property.email}&pedidoId=${property.pedidoId}&ebookId=${property.ebookId}")).
-    to("http4://localhost:8080/webservices/ebook/item")
-    */
 }
